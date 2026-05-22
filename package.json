@@ -1,0 +1,25 @@
+{
+  "name": "audio-fx-api",
+  "version": "1.0.0",
+  "description": "SaaS-style audio FX API powered by FFmpeg",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js && node --check src/audioEffects.js"
+  },
+  "keywords": [
+    "audio",
+    "ffmpeg",
+    "api",
+    "n8n",
+    "mp3"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
